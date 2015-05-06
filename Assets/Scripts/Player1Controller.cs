@@ -16,9 +16,22 @@ public class Player1Controller : MonoBehaviour {
 			Input.GetKeyDown (KeyCode.W)) {
 			if (grounded) {
 				GetComponent<Rigidbody2D>().velocity =
-					new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+					new Vector2(GetComponent<Rigidbody2D>().velocity.x, 
+					            jump);
 			}
 		}
+		moveVelocity = 0;
+
+		// Horizontal movement
+		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.W)){
+			moveVelocity -= speed;
+		}
+		if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)){
+			moveVelocity += speed;
+		}
+		GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveVelocity, 
+		                                                     GetComponent<Rigidbody2D>().velocity.y);
+
 	}
 
 	// Check if grounded

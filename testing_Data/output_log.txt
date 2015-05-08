@@ -12,9 +12,7 @@ Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New
 Loading M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  2.615 seconds
+- Completed reload, in  1.234 seconds
 desktop: 1366x768 60Hz; virtual: 3286x1848 at 0,-1080
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\System.Core.dll (this message is harmless)

@@ -29,7 +29,7 @@ public class Player1Controller : MonoBehaviour {
 			moveVelocity = speed; // move left
 		}
 		GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveVelocity,
-		                                    GetComponent<Rigidbody2D> ().velocity.y);
+		                           GetComponent<Rigidbody2D> ().velocity.y);
 	}
 	// Check to see if grounded or not
 	void OnTriggerEnter2D() {

@@ -6,15 +6,15 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  1.293 seconds
-desktop: 1366x768 60Hz; virtual: 3286x1848 at 0,-1080
+Platform assembly: C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.054 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: M:\Digital Media\Winikka\TeacherStuff\Game Design Testing\New 2D Platformer\testing_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\cwini_000\Documents\P1 Unity2D Platformer Test\testing_Data\Managed\System.Core.dll (this message is harmless)

@@ -32,6 +32,7 @@ public class NinjaController : MonoBehaviour {
 	// Check if grounded
 	void OnTriggerEnter2D() {
 		grounded = true;
+		animator.SetBool("isJumping", false);
 	}
 	void OnTriggerExit2D() {
 		grounded = false;

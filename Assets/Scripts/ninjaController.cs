@@ -1,49 +1,49 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player1Controller : MonoBehaviour {
-
+public class ninjaController : MonoBehaviour {
 	// Movement
 	public float speed;
 	public float jump;
 	float moveVelocity;
 	bool grounded = false;
 	bool facingRight = true;
+	Animator animator = new Animator();
 
 	// Update is called once per frame
-	void Update () 
-	{
+	void Update () {
 		// Jump
-		if (Input.GetKeyDown (KeyCode.W)) 
+		if (Input.GetKeyDown (KeyCode.UpArrow)) 
 		{
 			if (grounded) {
+				animator.SetBool("isJumping", true);
 				GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
 			}
 		}
 		moveVelocity = 0;	
 		// Horizontal Movement
-		if (Input.GetKey (KeyCode.A) )
-	    {
+		if (Input.GetKey (KeyCode.LeftArrow) )
+		{
 			if (facingRight) Flip();
 			moveVelocity = -speed;
 			facingRight = false;
 		}
-		if (Input.GetKey (KeyCode.D)) 
+		if (Input.GetKey (KeyCode.RightArrow)) 
 		{
 			if (!facingRight) Flip();
 			moveVelocity = speed;
 			facingRight = true;
 		}
-
-		// Keep it from continually sliding
-
+		
+		// Keep it from continuallay sliding
+		
 		GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 	}
-
 	// Check if grounded
 	void OnTriggerEnter2D()
 	{
 		grounded = true;
+		animator.SetBool("isJumping", false);
 	}
 	void OnTriggerExit2D()
 	{
@@ -56,3 +56,5 @@ public class Player1Controller : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 }
+
+

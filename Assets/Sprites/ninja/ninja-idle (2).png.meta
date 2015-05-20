@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: 62f8ddd4b36704a4097a3012778d5c9d
-timeCreated: 1431622914
+timeCreated: 1432140697
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ninja-idle (2)_0
+    21300002: ninja-idle (2)_1
+    21300004: ninja-idle (2)_2
+    21300006: ninja-idle (2)_3
+    21300008: ninja-idle (2)_4
+    21300010: ninja-idle (2)_5
+    21300012: ninja-idle (2)_6
+    21300014: ninja-idle (2)_7
+    21300016: ninja-idle (2)_8
+    21300018: ninja-idle (2)_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -30,14 +40,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +58,107 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: ninja-idle (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 101
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 101
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 101
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 101
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja-idle (2)_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

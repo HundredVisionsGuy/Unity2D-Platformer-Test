@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 3c6bcd285ef0f1748ab76a3e3a3155c1
+timeCreated: 1432747160
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninjaAttack_0
+    21300002: ninjaAttack_1
+    21300004: ninjaAttack_2
+    21300006: ninjaAttack_3
+    21300008: ninjaAttack_4
+    21300010: ninjaAttack_5
+    21300012: ninjaAttack_6
+    21300014: ninjaAttack_7
+    21300016: ninjaAttack_8
+    21300018: ninjaAttack_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ninjaAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1488
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1488
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 993
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 993
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 498
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 498
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaAttack_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 536
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

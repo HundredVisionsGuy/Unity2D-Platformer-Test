@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ninjaController : MonoBehaviour {
+public class NinjaController : MonoBehaviour {
 	// Movement
 	public float speed;
 	public float jump;
 	float moveVelocity;
 	bool grounded = false;
 	bool facingRight = true;
-	Animator animator = new Animator();
+	protected Animator animator = new Animator();
 
+	void Start() {
+		animator = GetComponent<Animator> ();
+	}
 	// Update is called once per frame
 	void Update () {
 		// Jump
@@ -43,7 +46,7 @@ public class ninjaController : MonoBehaviour {
 	void OnTriggerEnter2D()
 	{
 		grounded = true;
-		animator.SetBool("isJumping", false);
+		animator.SetBool ("isJumping", false);
 	}
 	void OnTriggerExit2D()
 	{
@@ -56,5 +59,3 @@ public class ninjaController : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 }
-
-

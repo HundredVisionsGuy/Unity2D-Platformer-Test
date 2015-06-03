@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 86b830097f0ef7b4c9dd15ea990a7390
+timeCreated: 1433024334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NinjaIdle_0
+    21300002: NinjaIdle_1
+    21300004: NinjaIdle_2
+    21300006: NinjaIdle_3
+    21300008: NinjaIdle_4
+    21300010: NinjaIdle_5
+    21300012: NinjaIdle_6
+    21300014: NinjaIdle_7
+    21300016: NinjaIdle_8
+    21300018: NinjaIdle_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NinjaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 440
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 440
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 440
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 440
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_8
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NinjaIdle_9
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1
+        width: 232
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

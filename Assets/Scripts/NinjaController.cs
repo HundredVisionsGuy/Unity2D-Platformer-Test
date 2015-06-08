@@ -5,8 +5,8 @@ public class NinjaController : MonoBehaviour {
 	// Movement Variables
 	public float speed;
 	public float jump;
-	protected float moveVelocity;
-	float maxSpeed = 10f;
+	float moveVelocity = 200f;
+	float maxSpeed = 7f;
 	bool grounded = false;
 	bool facingRight = true;
 	Animator animator;
@@ -32,13 +32,24 @@ public class NinjaController : MonoBehaviour {
 
 	}
 	void FixedUpdate() {
-		moveVelocity = 6f;
 		float move = Input.GetAxis ("Horizontal");
 
 		// Add animation clip for run, the view the following video:
 		// https://youtu.be/Xnyb2f6Qqzg?t=37m16s
 
-		rb.velocity = new Vector2 (move * maxSpeed, rb.velocity.y);
+		// rb.velocity = new Vector2 (move * maxSpeed, rb.velocity.y);
+		if (grounded) {
+			rb.AddForce (Vector2.right * moveVelocity * move);
+			if (move != 0) {
+				animator.SetBool ("isRunning", true);
+			}
+			else {
+				animator.SetBool("isRunning", false);
+			}
+		}
+		if (Mathf.Abs (rb.velocity.x) > maxSpeed) {
+			rb.velocity=new Vector2(maxSpeed*move, rb.velocity.y);
+		} 
 		if (move > 0 && !facingRight)
 			Flip ();
 		else if (move < 0 && facingRight)
@@ -49,9 +60,14 @@ public class NinjaController : MonoBehaviour {
 	void OnTriggerEnter2D() {
 		grounded = true;
 		animator.SetBool("isJumping", false);
+		animator.SetBool ("isGrounded", true);
 	}
 	void OnTriggerExit2D() {
 		grounded = false;
+		animator.SetBool ("isGrounded", false);
+		if (rb.velocity.y > 0) {
+			animator.SetBool("isJumping", true);
+		}
 	}
 	void Flip() {
 		facingRight = !facingRight;

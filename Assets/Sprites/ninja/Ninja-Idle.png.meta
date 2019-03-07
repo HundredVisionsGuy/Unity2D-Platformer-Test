@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: fa40fb5bcaea78643b4a7d4cc7a294cb
-timeCreated: 1432765279
+guid: fd417c0328fa8fb49b11fb5040979ae3
+timeCreated: 1431461647
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Ninja-Idle_00
-    21300002: Ninja-Idle_01
-    21300004: Ninja-Idle_02
-    21300006: Ninja-Idle_06
-    21300008: Ninja-Idle_08
-    21300010: Ninja-Idle_03
-    21300012: Ninja-Idle_04
-    21300014: Ninja-Idle_05
-    21300016: Ninja-Idle_07
-    21300018: Ninja-Idle_09
+    21300000: Ninja-Idle_0
+    21300002: Ninja-Idle_1
+    21300004: Ninja-Idle_2
+    21300006: Ninja-Idle_3
+    21300008: Ninja-Idle_4
+    21300010: Ninja-Idle_5
+    21300012: Ninja-Idle_6
+    21300014: Ninja-Idle_7
+    21300016: Ninja-Idle_8
+    21300018: Ninja-Idle_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -39,7 +39,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 0
+    filterMode: -1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -59,105 +59,105 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Ninja-Idle_00
+    - name: Ninja-Idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 439
-        width: 232
-        height: 439
+        y: 101
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_01
+    - name: Ninja-Idle_1
       rect:
         serializedVersion: 2
-        x: 232
-        y: 439
-        width: 232
-        height: 439
+        x: 54
+        y: 101
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_02
+    - name: Ninja-Idle_2
       rect:
         serializedVersion: 2
-        x: 464
-        y: 439
-        width: 232
-        height: 439
+        x: 108
+        y: 101
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_06
+    - name: Ninja-Idle_3
       rect:
         serializedVersion: 2
-        x: 696
-        y: 439
-        width: 232
-        height: 439
+        x: 162
+        y: 101
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_08
+    - name: Ninja-Idle_4
       rect:
         serializedVersion: 2
-        x: 928
-        y: 439
-        width: 232
-        height: 439
+        x: 216
+        y: 101
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_03
+    - name: Ninja-Idle_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 232
-        height: 439
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_04
+    - name: Ninja-Idle_6
       rect:
         serializedVersion: 2
-        x: 232
+        x: 54
         y: 0
-        width: 232
-        height: 439
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_05
+    - name: Ninja-Idle_7
       rect:
         serializedVersion: 2
-        x: 464
+        x: 108
         y: 0
-        width: 232
-        height: 439
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_07
+    - name: Ninja-Idle_8
       rect:
         serializedVersion: 2
-        x: 696
+        x: 162
         y: 0
-        width: 232
-        height: 439
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ninja-Idle_09
+    - name: Ninja-Idle_9
       rect:
         serializedVersion: 2
-        x: 928
+        x: 216
         y: 0
-        width: 232
-        height: 439
+        width: 53
+        height: 100
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
